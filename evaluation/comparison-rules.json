@@ -1,0 +1,19 @@
+{
+  "method": "Reference-interval category coverage, not precision/recall or verified accuracy",
+  "minimum_overlap_seconds": 0.1,
+  "boundary_tolerance_seconds": 1.0,
+  "note": "Rules fixed before reading the completed inference. Match only emitted top-1 events, never promote top-5 alternatives. A merged event may overlap several reference intervals; counts describe reference intervals, not independent detections. Published captions are an incomplete reference, not independently audited ground truth.",
+  "reference_categories": [
+    {"category":"코 고는 소리","accepted":["Snoring"],"related":["Breathing","Snort"]},
+    {"category":"코 고는 소리","accepted":["Snoring"],"related":["Breathing","Snort"]},
+    {"category":"코 고는 소리","accepted":["Snoring"],"related":["Breathing","Snort"]},
+    {"category":"킁킁거림","accepted":["Sniff"],"related":["Breathing","Snort"]},
+    {"category":"귀의 뽁 소리","accepted":["Burst, pop","Plop"],"related":["Crack","Thump, thud"]},
+    {"category":"하품","accepted":[],"related":["Groan","Grunt","Breathing"],"unsupported":true},
+    {"category":"목의 뚝 소리","accepted":["Crack"],"related":["Clicking","Burst, pop","Finger snapping"]},
+    {"category":"킁킁거림","accepted":["Sniff"],"related":["Breathing","Snort"]},
+    {"category":"킁킁거림","accepted":["Sniff"],"related":["Breathing","Snort"]},
+    {"category":"한숨","accepted":["Sigh"],"related":["Breathing","Groan"]},
+    {"category":"사과의 툭 소리","accepted":["Thump, thud"],"related":["Knock","Bang","Plop"]}
+  ]
+}

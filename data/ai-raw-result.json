@@ -1,0 +1,1566 @@
+{
+  "title": "movie_0030_0130.mp4",
+  "duration": 60.011,
+  "model": "MIT/ast-finetuned-audioset-10-10-0.4593",
+  "revision": "f826b80d28226b62986cc218e5cec390b1096902",
+  "elapsed_seconds": 115.15,
+  "parameters": {
+    "sample_rate": 16000,
+    "window_seconds": 2,
+    "hop_seconds": 1,
+    "threshold": 0.24,
+    "silence_gate_dbfs": -60,
+    "candidate_rule": "Top-1 class per window; no prefilter to expected demo labels; sigmoid scores, not probabilities"
+  },
+  "limitations": [
+    "클립 분류 모델의 2초 창을 이용한 후보입니다. 정밀한 시작·종료 시각은 사람이 확인해야 합니다.",
+    "각 창의 대표 후보 하나만 선택하므로 동시에 나는 소리는 놓칠 수 있습니다.",
+    "점수는 모델 출력이며 정답 확률이 아닙니다.",
+    "소리 원인·장면·감정을 추측하지 않습니다. 음량으로 감정을 판단하지 않습니다."
+  ],
+  "events": [
+    {
+      "start": 0.0,
+      "end": 12.15,
+      "label": "Music",
+      "text": "음악",
+      "score": 0.63196,
+      "review_status": "미검수"
+    },
+    {
+      "start": 14.8,
+      "end": 16.85,
+      "label": "Music",
+      "text": "음악",
+      "score": 0.45731,
+      "review_status": "미검수"
+    },
+    {
+      "start": 18.6,
+      "end": 18.7,
+      "label": "Music",
+      "text": "음악",
+      "score": 0.45175,
+      "review_status": "미검수"
+    },
+    {
+      "start": 20.0,
+      "end": 22.7,
+      "label": "Music",
+      "text": "음악",
+      "score": 0.55874,
+      "review_status": "미검수"
+    },
+    {
+      "start": 24.55,
+      "end": 54.2,
+      "label": "Music",
+      "text": "음악",
+      "score": 0.68797,
+      "review_status": "미검수"
+    }
+  ],
+  "windows": [
+    {
+      "start": 0.0,
+      "end": 2.0,
+      "dbfs": -51.0,
+      "top5": [
+        {
+          "label": "Music",
+          "score": 0.54395
+        },
+        {
+          "label": "Animal",
+          "score": 0.06885
+        },
+        {
+          "label": "Bird",
+          "score": 0.05419
+        },
+        {
+          "label": "Environmental noise",
+          "score": 0.04743
+        },
+        {
+          "label": "Speech",
+          "score": 0.046
+        }
+      ]
+    },
+    {
+      "start": 1.0,
+      "end": 3.0,
+      "dbfs": -48.64,
+      "top5": [
+        {
+          "label": "Music",
+          "score": 0.54684
+        },
+        {
+          "label": "Ice cream truck, ice cream van",
+          "score": 0.23438
+        },
+        {
+          "label": "Bird",
+          "score": 0.05338
+        },
+        {
+          "label": "Television",
+          "score": 0.04965
+        },
+        {
+          "label": "Speech",
+          "score": 0.04921
+        }
+      ]
+    },
+    {
+      "start": 2.0,
+      "end": 4.0,
+      "dbfs": -45.59,
+      "top5": [
+        {
+          "label": "Music",
+          "score": 0.47576
+        },
+        {
+          "label": "Violin, fiddle",
+          "score": 0.10492
+        },
+        {
+          "label": "Orchestra",
+          "score": 0.09544
+        },
+        {
+          "label": "Musical instrument",
+          "score": 0.08164
+        },
+        {
+          "label": "Classical music",
+          "score": 0.04841
+        }
+      ]
+    },
+    {
+      "start": 3.0,
+      "end": 5.0,
+      "dbfs": -41.59,
+      "top5": [
+        {
+          "label": "Music",
+          "score": 0.49843
+        },
+        {
+          "label": "Animal",
+          "score": 0.0881
+        },
+        {
+          "label": "Snoring",
+          "score": 0.06381
+        },
+        {
+          "label": "Domestic animals, pets",
+          "score": 0.05241
+        },
+        {
+          "label": "Opera",
+          "score": 0.04724
+        }
+      ]
+    },
+    {
+      "start": 4.0,
+      "end": 6.0,
+      "dbfs": -38.8,
+      "top5": [
+        {
+          "label": "Music",
+          "score": 0.55979
+        },
+        {
+          "label": "Television",
+          "score": 0.06279
+        },
+        {
+          "label": "Opera",
+          "score": 0.05649
+        },
+        {
+          "label": "Sound effect",
+          "score": 0.04497
+        },
+        {
+          "label": "Speech",
+          "score": 0.04226
+        }
+      ]
+    },
+    {
+      "start": 5.0,
+      "end": 7.0,
+      "dbfs": -37.92,
+      "top5": [
+        {
+          "label": "Music",
+          "score": 0.61065
+        },
+        {
+          "label": "Television",
+          "score": 0.1607
+        },
+        {
+          "label": "Sound effect",
+          "score": 0.0321
+        },
+        {
+          "label": "Musical instrument",
+          "score": 0.03195
+        },
+        {
+          "label": "Speech",
+          "score": 0.02996
+        }
+      ]
+    },
+    {
+      "start": 6.0,
+      "end": 8.0,
+      "dbfs": -39.34,
+      "top5": [
+        {
+          "label": "Music",
+          "score": 0.63196
+        },
+        {
+          "label": "Television",
+          "score": 0.08341
+        },
+        {
+          "label": "Sound effect",
+          "score": 0.04037
+        },
+        {
+          "label": "Speech",
+          "score": 0.03749
+        },
+        {
+          "label": "Background music",
+          "score": 0.02488
+        }
+      ]
+    },
+    {
+      "start": 7.0,
+      "end": 9.0,
+      "dbfs": -43.21,
+      "top5": [
+        {
+          "label": "Music",
+          "score": 0.49094
+        },
+        {
+          "label": "Bird",
+          "score": 0.04986
+        },
+        {
+          "label": "Speech",
+          "score": 0.04722
+        },
+        {
+          "label": "New-age music",
+          "score": 0.04617
+        },
+        {
+          "label": "Animal",
+          "score": 0.04186
+        }
+      ]
+    },
+    {
+      "start": 8.0,
+      "end": 10.0,
+      "dbfs": -47.63,
+      "top5": [
+        {
+          "label": "Music",
+          "score": 0.51612
+        },
+        {
+          "label": "Bird",
+          "score": 0.07028
+        },
+        {
+          "label": "Speech",
+          "score": 0.05731
+        },
+        {
+          "label": "Animal",
+          "score": 0.03991
+        },
+        {
+          "label": "Television",
+          "score": 0.03575
+        }
+      ]
+    },
+    {
+      "start": 9.0,
+      "end": 11.0,
+      "dbfs": -50.82,
+      "top5": [
+        {
+          "label": "Music",
+          "score": 0.60334
+        },
+        {
+          "label": "Television",
+          "score": 0.06014
+        },
+        {
+          "label": "Speech",
+          "score": 0.04057
+        },
+        {
+          "label": "Musical instrument",
+          "score": 0.03398
+        },
+        {
+          "label": "Bird",
+          "score": 0.03281
+        }
+      ]
+    },
+    {
+      "start": 10.0,
+      "end": 12.0,
+      "dbfs": -53.69,
+      "top5": [
+        {
+          "label": "Music",
+          "score": 0.5831
+        },
+        {
+          "label": "Musical instrument",
+          "score": 0.07989
+        },
+        {
+          "label": "Speech",
+          "score": 0.06392
+        },
+        {
+          "label": "Animal",
+          "score": 0.04982
+        },
+        {
+          "label": "Ice cream truck, ice cream van",
+          "score": 0.03678
+        }
+      ]
+    },
+    {
+      "start": 11.0,
+      "end": 13.0,
+      "dbfs": -55.78,
+      "top5": [
+        {
+          "label": "Music",
+          "score": 0.44208
+        },
+        {
+          "label": "Violin, fiddle",
+          "score": 0.23862
+        },
+        {
+          "label": "Musical instrument",
+          "score": 0.22596
+        },
+        {
+          "label": "Speech",
+          "score": 0.12413
+        },
+        {
+          "label": "Animal",
+          "score": 0.0786
+        }
+      ]
+    },
+    {
+      "start": 12.0,
+      "end": 14.0,
+      "dbfs": -58.69,
+      "top5": [
+        {
+          "label": "Music",
+          "score": 0.50019
+        },
+        {
+          "label": "Speech",
+          "score": 0.11883
+        },
+        {
+          "label": "Animal",
+          "score": 0.0493
+        },
+        {
+          "label": "Violin, fiddle",
+          "score": 0.04258
+        },
+        {
+          "label": "Musical instrument",
+          "score": 0.03764
+        }
+      ]
+    },
+    {
+      "start": 13.0,
+      "end": 15.0,
+      "dbfs": -60.91,
+      "top5": []
+    },
+    {
+      "start": 14.0,
+      "end": 16.0,
+      "dbfs": -51.79,
+      "top5": [
+        {
+          "label": "Music",
+          "score": 0.45731
+        },
+        {
+          "label": "Speech",
+          "score": 0.18426
+        },
+        {
+          "label": "Bird",
+          "score": 0.05439
+        },
+        {
+          "label": "Animal",
+          "score": 0.04936
+        },
+        {
+          "label": "Television",
+          "score": 0.03371
+        }
+      ]
+    },
+    {
+      "start": 15.0,
+      "end": 17.0,
+      "dbfs": -47.34,
+      "top5": [
+        {
+          "label": "Music",
+          "score": 0.43249
+        },
+        {
+          "label": "Speech",
+          "score": 0.08021
+        },
+        {
+          "label": "Tap",
+          "score": 0.04824
+        },
+        {
+          "label": "Animal",
+          "score": 0.03484
+        },
+        {
+          "label": "Whack, thwack",
+          "score": 0.02316
+        }
+      ]
+    },
+    {
+      "start": 16.0,
+      "end": 18.0,
+      "dbfs": -48.99,
+      "top5": [
+        {
+          "label": "Music",
+          "score": 0.38353
+        },
+        {
+          "label": "Chop",
+          "score": 0.07759
+        },
+        {
+          "label": "Tap",
+          "score": 0.05614
+        },
+        {
+          "label": "Bird",
+          "score": 0.04738
+        },
+        {
+          "label": "Knock",
+          "score": 0.04664
+        }
+      ]
+    },
+    {
+      "start": 17.0,
+      "end": 19.0,
+      "dbfs": -51.4,
+      "top5": [
+        {
+          "label": "Music",
+          "score": 0.36638
+        },
+        {
+          "label": "Heart sounds, heartbeat",
+          "score": 0.09605
+        },
+        {
+          "label": "Heart murmur",
+          "score": 0.06829
+        },
+        {
+          "label": "Flute",
+          "score": 0.04093
+        },
+        {
+          "label": "Speech",
+          "score": 0.03909
+        }
+      ]
+    },
+    {
+      "start": 18.0,
+      "end": 20.0,
+      "dbfs": -51.36,
+      "top5": [
+        {
+          "label": "Music",
+          "score": 0.45175
+        },
+        {
+          "label": "Heart sounds, heartbeat",
+          "score": 0.06512
+        },
+        {
+          "label": "Musical instrument",
+          "score": 0.04763
+        },
+        {
+          "label": "Violin, fiddle",
+          "score": 0.04045
+        },
+        {
+          "label": "Heart murmur",
+          "score": 0.02953
+        }
+      ]
+    },
+    {
+      "start": 19.0,
+      "end": 21.0,
+      "dbfs": -47.93,
+      "top5": [
+        {
+          "label": "Music",
+          "score": 0.51247
+        },
+        {
+          "label": "Animal",
+          "score": 0.09563
+        },
+        {
+          "label": "Speech",
+          "score": 0.04693
+        },
+        {
+          "label": "Roaring cats (lions, tigers)",
+          "score": 0.04258
+        },
+        {
+          "label": "Roar",
+          "score": 0.03173
+        }
+      ]
+    },
+    {
+      "start": 20.0,
+      "end": 22.0,
+      "dbfs": -46.1,
+      "top5": [
+        {
+          "label": "Music",
+          "score": 0.55874
+        },
+        {
+          "label": "Speech",
+          "score": 0.10607
+        },
+        {
+          "label": "Violin, fiddle",
+          "score": 0.09857
+        },
+        {
+          "label": "Musical instrument",
+          "score": 0.05915
+        },
+        {
+          "label": "Sigh",
+          "score": 0.04425
+        }
+      ]
+    },
+    {
+      "start": 21.0,
+      "end": 23.0,
+      "dbfs": -48.79,
+      "top5": [
+        {
+          "label": "Music",
+          "score": 0.4718
+        },
+        {
+          "label": "Speech",
+          "score": 0.17893
+        },
+        {
+          "label": "Animal",
+          "score": 0.02852
+        },
+        {
+          "label": "Caw",
+          "score": 0.02766
+        },
+        {
+          "label": "Musical instrument",
+          "score": 0.02599
+        }
+      ]
+    },
+    {
+      "start": 22.0,
+      "end": 24.0,
+      "dbfs": -53.56,
+      "top5": [
+        {
+          "label": "Music",
+          "score": 0.43919
+        },
+        {
+          "label": "Speech",
+          "score": 0.17696
+        },
+        {
+          "label": "Musical instrument",
+          "score": 0.05852
+        },
+        {
+          "label": "Caw",
+          "score": 0.05486
+        },
+        {
+          "label": "Bird",
+          "score": 0.04591
+        }
+      ]
+    },
+    {
+      "start": 23.0,
+      "end": 25.0,
+      "dbfs": -54.51,
+      "top5": [
+        {
+          "label": "Speech",
+          "score": 0.09434
+        },
+        {
+          "label": "Environmental noise",
+          "score": 0.09376
+        },
+        {
+          "label": "Sigh",
+          "score": 0.07181
+        },
+        {
+          "label": "Animal",
+          "score": 0.05508
+        },
+        {
+          "label": "Bird vocalization, bird call, bird song",
+          "score": 0.05356
+        }
+      ]
+    },
+    {
+      "start": 24.0,
+      "end": 26.0,
+      "dbfs": -50.67,
+      "top5": [
+        {
+          "label": "Music",
+          "score": 0.30702
+        },
+        {
+          "label": "Heart sounds, heartbeat",
+          "score": 0.09984
+        },
+        {
+          "label": "Speech",
+          "score": 0.07467
+        },
+        {
+          "label": "Animal",
+          "score": 0.04439
+        },
+        {
+          "label": "Heart murmur",
+          "score": 0.03334
+        }
+      ]
+    },
+    {
+      "start": 25.0,
+      "end": 27.0,
+      "dbfs": -48.22,
+      "top5": [
+        {
+          "label": "Music",
+          "score": 0.45449
+        },
+        {
+          "label": "Heart sounds, heartbeat",
+          "score": 0.09023
+        },
+        {
+          "label": "Speech",
+          "score": 0.06576
+        },
+        {
+          "label": "Heart murmur",
+          "score": 0.04919
+        },
+        {
+          "label": "Inside, small room",
+          "score": 0.03134
+        }
+      ]
+    },
+    {
+      "start": 26.0,
+      "end": 28.0,
+      "dbfs": -47.03,
+      "top5": [
+        {
+          "label": "Music",
+          "score": 0.62232
+        },
+        {
+          "label": "Television",
+          "score": 0.15349
+        },
+        {
+          "label": "Speech",
+          "score": 0.03453
+        },
+        {
+          "label": "Musical instrument",
+          "score": 0.02886
+        },
+        {
+          "label": "Violin, fiddle",
+          "score": 0.02604
+        }
+      ]
+    },
+    {
+      "start": 27.0,
+      "end": 29.0,
+      "dbfs": -44.86,
+      "top5": [
+        {
+          "label": "Music",
+          "score": 0.63057
+        },
+        {
+          "label": "Television",
+          "score": 0.11229
+        },
+        {
+          "label": "Violin, fiddle",
+          "score": 0.05239
+        },
+        {
+          "label": "Musical instrument",
+          "score": 0.04919
+        },
+        {
+          "label": "Speech",
+          "score": 0.02737
+        }
+      ]
+    },
+    {
+      "start": 28.0,
+      "end": 30.0,
+      "dbfs": -44.49,
+      "top5": [
+        {
+          "label": "Music",
+          "score": 0.59697
+        },
+        {
+          "label": "Television",
+          "score": 0.18092
+        },
+        {
+          "label": "Animal",
+          "score": 0.05813
+        },
+        {
+          "label": "Violin, fiddle",
+          "score": 0.05141
+        },
+        {
+          "label": "Speech",
+          "score": 0.04283
+        }
+      ]
+    },
+    {
+      "start": 29.0,
+      "end": 31.0,
+      "dbfs": -45.0,
+      "top5": [
+        {
+          "label": "Music",
+          "score": 0.6118
+        },
+        {
+          "label": "Television",
+          "score": 0.14448
+        },
+        {
+          "label": "Violin, fiddle",
+          "score": 0.07113
+        },
+        {
+          "label": "Musical instrument",
+          "score": 0.05865
+        },
+        {
+          "label": "Speech",
+          "score": 0.0377
+        }
+      ]
+    },
+    {
+      "start": 30.0,
+      "end": 32.0,
+      "dbfs": -43.6,
+      "top5": [
+        {
+          "label": "Music",
+          "score": 0.59318
+        },
+        {
+          "label": "Speech",
+          "score": 0.07219
+        },
+        {
+          "label": "Tick",
+          "score": 0.04067
+        },
+        {
+          "label": "Television",
+          "score": 0.03306
+        },
+        {
+          "label": "Tick-tock",
+          "score": 0.03268
+        }
+      ]
+    },
+    {
+      "start": 31.0,
+      "end": 33.0,
+      "dbfs": -43.17,
+      "top5": [
+        {
+          "label": "Music",
+          "score": 0.57374
+        },
+        {
+          "label": "Speech",
+          "score": 0.09099
+        },
+        {
+          "label": "Animal",
+          "score": 0.04528
+        },
+        {
+          "label": "Gasp",
+          "score": 0.03247
+        },
+        {
+          "label": "Domestic animals, pets",
+          "score": 0.03017
+        }
+      ]
+    },
+    {
+      "start": 32.0,
+      "end": 34.0,
+      "dbfs": -42.02,
+      "top5": [
+        {
+          "label": "Music",
+          "score": 0.5866
+        },
+        {
+          "label": "Speech",
+          "score": 0.10959
+        },
+        {
+          "label": "Violin, fiddle",
+          "score": 0.06137
+        },
+        {
+          "label": "Television",
+          "score": 0.05045
+        },
+        {
+          "label": "Musical instrument",
+          "score": 0.04837
+        }
+      ]
+    },
+    {
+      "start": 33.0,
+      "end": 35.0,
+      "dbfs": -41.18,
+      "top5": [
+        {
+          "label": "Music",
+          "score": 0.60525
+        },
+        {
+          "label": "Animal",
+          "score": 0.09484
+        },
+        {
+          "label": "Television",
+          "score": 0.09264
+        },
+        {
+          "label": "Speech",
+          "score": 0.05012
+        },
+        {
+          "label": "Violin, fiddle",
+          "score": 0.04557
+        }
+      ]
+    },
+    {
+      "start": 34.0,
+      "end": 36.0,
+      "dbfs": -43.2,
+      "top5": [
+        {
+          "label": "Music",
+          "score": 0.52485
+        },
+        {
+          "label": "Speech",
+          "score": 0.07816
+        },
+        {
+          "label": "Violin, fiddle",
+          "score": 0.06723
+        },
+        {
+          "label": "Musical instrument",
+          "score": 0.06063
+        },
+        {
+          "label": "Animal",
+          "score": 0.05289
+        }
+      ]
+    },
+    {
+      "start": 35.0,
+      "end": 37.0,
+      "dbfs": -42.36,
+      "top5": [
+        {
+          "label": "Music",
+          "score": 0.52093
+        },
+        {
+          "label": "Speech",
+          "score": 0.07565
+        },
+        {
+          "label": "Musical instrument",
+          "score": 0.03004
+        },
+        {
+          "label": "Animal",
+          "score": 0.02996
+        },
+        {
+          "label": "Bird",
+          "score": 0.01957
+        }
+      ]
+    },
+    {
+      "start": 36.0,
+      "end": 38.0,
+      "dbfs": -42.59,
+      "top5": [
+        {
+          "label": "Music",
+          "score": 0.45913
+        },
+        {
+          "label": "Speech",
+          "score": 0.11777
+        },
+        {
+          "label": "Animal",
+          "score": 0.02901
+        },
+        {
+          "label": "Musical instrument",
+          "score": 0.02302
+        },
+        {
+          "label": "Slap, smack",
+          "score": 0.01976
+        }
+      ]
+    },
+    {
+      "start": 37.0,
+      "end": 39.0,
+      "dbfs": -45.88,
+      "top5": [
+        {
+          "label": "Music",
+          "score": 0.61017
+        },
+        {
+          "label": "Gasp",
+          "score": 0.11875
+        },
+        {
+          "label": "Speech",
+          "score": 0.11364
+        },
+        {
+          "label": "Snort",
+          "score": 0.09568
+        },
+        {
+          "label": "Television",
+          "score": 0.03779
+        }
+      ]
+    },
+    {
+      "start": 38.0,
+      "end": 40.0,
+      "dbfs": -46.34,
+      "top5": [
+        {
+          "label": "Music",
+          "score": 0.56
+        },
+        {
+          "label": "Zipper (clothing)",
+          "score": 0.05389
+        },
+        {
+          "label": "Snort",
+          "score": 0.0419
+        },
+        {
+          "label": "Inside, small room",
+          "score": 0.02434
+        },
+        {
+          "label": "Gasp",
+          "score": 0.02246
+        }
+      ]
+    },
+    {
+      "start": 39.0,
+      "end": 41.0,
+      "dbfs": -48.84,
+      "top5": [
+        {
+          "label": "Music",
+          "score": 0.6012
+        },
+        {
+          "label": "Zipper (clothing)",
+          "score": 0.07082
+        },
+        {
+          "label": "Spray",
+          "score": 0.04067
+        },
+        {
+          "label": "Speech",
+          "score": 0.03918
+        },
+        {
+          "label": "Television",
+          "score": 0.03576
+        }
+      ]
+    },
+    {
+      "start": 40.0,
+      "end": 42.0,
+      "dbfs": -47.89,
+      "top5": [
+        {
+          "label": "Music",
+          "score": 0.68797
+        },
+        {
+          "label": "Television",
+          "score": 0.35106
+        },
+        {
+          "label": "Theme music",
+          "score": 0.05593
+        },
+        {
+          "label": "Background music",
+          "score": 0.02154
+        },
+        {
+          "label": "Soundtrack music",
+          "score": 0.01995
+        }
+      ]
+    },
+    {
+      "start": 41.0,
+      "end": 43.0,
+      "dbfs": -42.84,
+      "top5": [
+        {
+          "label": "Music",
+          "score": 0.66431
+        },
+        {
+          "label": "Animal",
+          "score": 0.12487
+        },
+        {
+          "label": "Television",
+          "score": 0.12406
+        },
+        {
+          "label": "Speech",
+          "score": 0.04801
+        },
+        {
+          "label": "Bird",
+          "score": 0.03771
+        }
+      ]
+    },
+    {
+      "start": 42.0,
+      "end": 44.0,
+      "dbfs": -42.19,
+      "top5": [
+        {
+          "label": "Music",
+          "score": 0.63546
+        },
+        {
+          "label": "Snort",
+          "score": 0.11168
+        },
+        {
+          "label": "Television",
+          "score": 0.09761
+        },
+        {
+          "label": "Speech",
+          "score": 0.05425
+        },
+        {
+          "label": "Animal",
+          "score": 0.04611
+        }
+      ]
+    },
+    {
+      "start": 43.0,
+      "end": 45.0,
+      "dbfs": -43.1,
+      "top5": [
+        {
+          "label": "Music",
+          "score": 0.58343
+        },
+        {
+          "label": "Snort",
+          "score": 0.05218
+        },
+        {
+          "label": "Spray",
+          "score": 0.04848
+        },
+        {
+          "label": "Speech",
+          "score": 0.0459
+        },
+        {
+          "label": "Snake",
+          "score": 0.03066
+        }
+      ]
+    },
+    {
+      "start": 44.0,
+      "end": 46.0,
+      "dbfs": -43.25,
+      "top5": [
+        {
+          "label": "Music",
+          "score": 0.44937
+        },
+        {
+          "label": "Speech",
+          "score": 0.19425
+        },
+        {
+          "label": "Animal",
+          "score": 0.05492
+        },
+        {
+          "label": "Television",
+          "score": 0.03435
+        },
+        {
+          "label": "Bird",
+          "score": 0.02557
+        }
+      ]
+    },
+    {
+      "start": 45.0,
+      "end": 47.0,
+      "dbfs": -45.58,
+      "top5": [
+        {
+          "label": "Music",
+          "score": 0.43463
+        },
+        {
+          "label": "Speech",
+          "score": 0.12447
+        },
+        {
+          "label": "Animal",
+          "score": 0.0781
+        },
+        {
+          "label": "Bird",
+          "score": 0.03426
+        },
+        {
+          "label": "Television",
+          "score": 0.03179
+        }
+      ]
+    },
+    {
+      "start": 46.0,
+      "end": 48.0,
+      "dbfs": -43.49,
+      "top5": [
+        {
+          "label": "Music",
+          "score": 0.5466
+        },
+        {
+          "label": "Television",
+          "score": 0.12423
+        },
+        {
+          "label": "Violin, fiddle",
+          "score": 0.03563
+        },
+        {
+          "label": "Musical instrument",
+          "score": 0.03458
+        },
+        {
+          "label": "Opera",
+          "score": 0.0321
+        }
+      ]
+    },
+    {
+      "start": 47.0,
+      "end": 49.0,
+      "dbfs": -42.86,
+      "top5": [
+        {
+          "label": "Music",
+          "score": 0.54517
+        },
+        {
+          "label": "Television",
+          "score": 0.06747
+        },
+        {
+          "label": "Musical instrument",
+          "score": 0.05306
+        },
+        {
+          "label": "Violin, fiddle",
+          "score": 0.02923
+        },
+        {
+          "label": "Classical music",
+          "score": 0.02615
+        }
+      ]
+    },
+    {
+      "start": 48.0,
+      "end": 50.0,
+      "dbfs": -43.52,
+      "top5": [
+        {
+          "label": "Music",
+          "score": 0.51966
+        },
+        {
+          "label": "Tick-tock",
+          "score": 0.09859
+        },
+        {
+          "label": "Tick",
+          "score": 0.06696
+        },
+        {
+          "label": "Speech",
+          "score": 0.03663
+        },
+        {
+          "label": "Sound effect",
+          "score": 0.01971
+        }
+      ]
+    },
+    {
+      "start": 49.0,
+      "end": 51.0,
+      "dbfs": -44.61,
+      "top5": [
+        {
+          "label": "Music",
+          "score": 0.4932
+        },
+        {
+          "label": "Speech",
+          "score": 0.04585
+        },
+        {
+          "label": "Musical instrument",
+          "score": 0.01982
+        },
+        {
+          "label": "Television",
+          "score": 0.01968
+        },
+        {
+          "label": "Tap",
+          "score": 0.01795
+        }
+      ]
+    },
+    {
+      "start": 50.0,
+      "end": 52.0,
+      "dbfs": -44.23,
+      "top5": [
+        {
+          "label": "Music",
+          "score": 0.48203
+        },
+        {
+          "label": "Opera",
+          "score": 0.14333
+        },
+        {
+          "label": "Classical music",
+          "score": 0.05571
+        },
+        {
+          "label": "Speech",
+          "score": 0.04159
+        },
+        {
+          "label": "Musical instrument",
+          "score": 0.04017
+        }
+      ]
+    },
+    {
+      "start": 51.0,
+      "end": 53.0,
+      "dbfs": -42.98,
+      "top5": [
+        {
+          "label": "Music",
+          "score": 0.42741
+        },
+        {
+          "label": "Opera",
+          "score": 0.18982
+        },
+        {
+          "label": "Choir",
+          "score": 0.16219
+        },
+        {
+          "label": "Singing",
+          "score": 0.08049
+        },
+        {
+          "label": "Classical music",
+          "score": 0.0404
+        }
+      ]
+    },
+    {
+      "start": 52.0,
+      "end": 54.0,
+      "dbfs": -38.54,
+      "top5": [
+        {
+          "label": "Music",
+          "score": 0.30564
+        },
+        {
+          "label": "Slap, smack",
+          "score": 0.06722
+        },
+        {
+          "label": "Choir",
+          "score": 0.04139
+        },
+        {
+          "label": "Speech",
+          "score": 0.03623
+        },
+        {
+          "label": "Singing",
+          "score": 0.03303
+        }
+      ]
+    },
+    {
+      "start": 53.0,
+      "end": 55.0,
+      "dbfs": -39.21,
+      "top5": [
+        {
+          "label": "Music",
+          "score": 0.43971
+        },
+        {
+          "label": "Whip",
+          "score": 0.06165
+        },
+        {
+          "label": "Speech",
+          "score": 0.02256
+        },
+        {
+          "label": "Whack, thwack",
+          "score": 0.01933
+        },
+        {
+          "label": "Sound effect",
+          "score": 0.01848
+        }
+      ]
+    },
+    {
+      "start": 54.0,
+      "end": 56.0,
+      "dbfs": -56.81,
+      "top5": [
+        {
+          "label": "Coin (dropping)",
+          "score": 0.07592
+        },
+        {
+          "label": "Music",
+          "score": 0.03914
+        },
+        {
+          "label": "Sound effect",
+          "score": 0.03508
+        },
+        {
+          "label": "Door",
+          "score": 0.03488
+        },
+        {
+          "label": "Ding",
+          "score": 0.03256
+        }
+      ]
+    },
+    {
+      "start": 55.0,
+      "end": 57.0,
+      "dbfs": -62.94,
+      "top5": []
+    },
+    {
+      "start": 56.0,
+      "end": 58.0,
+      "dbfs": -62.81,
+      "top5": []
+    },
+    {
+      "start": 57.0,
+      "end": 59.0,
+      "dbfs": -75.9,
+      "top5": []
+    },
+    {
+      "start": 58.0,
+      "end": 60.0,
+      "dbfs": -81.2,
+      "top5": []
+    },
+    {
+      "start": 59.0,
+      "end": 60.011,
+      "dbfs": -79.62,
+      "top5": []
+    },
+    {
+      "start": 60.0,
+      "end": 60.011,
+      "dbfs": -88.29,
+      "top5": []
+    }
+  ],
+  "input_sha256": "5082e9e26e2e86ea29628b43e1fa6a264245c6e9642bf19d8650893445495075"
+}

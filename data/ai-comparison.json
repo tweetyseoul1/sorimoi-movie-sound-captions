@@ -1,0 +1,384 @@
+{
+  "clip_start_in_movie": 30,
+  "duration": 60.011,
+  "reference_count": 11,
+  "ai_event_count": 5,
+  "ai_effect_event_count": 0,
+  "counts": {
+    "matched": 0,
+    "related": 0,
+    "different": 0,
+    "missing": 10,
+    "unsupported": 1
+  },
+  "timing_within_1s_count": 0,
+  "rules": {
+    "method": "Reference-interval category coverage, not precision/recall or verified accuracy",
+    "minimum_overlap_seconds": 0.1,
+    "boundary_tolerance_seconds": 1.0,
+    "note": "Rules fixed before reading the completed inference. Match only emitted top-1 events, never promote top-5 alternatives. A merged event may overlap several reference intervals; counts describe reference intervals, not independent detections. Published captions are an incomplete reference, not independently audited ground truth.",
+    "reference_categories": [
+      {
+        "category": "코 고는 소리",
+        "accepted": [
+          "Snoring"
+        ],
+        "related": [
+          "Breathing",
+          "Snort"
+        ]
+      },
+      {
+        "category": "코 고는 소리",
+        "accepted": [
+          "Snoring"
+        ],
+        "related": [
+          "Breathing",
+          "Snort"
+        ]
+      },
+      {
+        "category": "코 고는 소리",
+        "accepted": [
+          "Snoring"
+        ],
+        "related": [
+          "Breathing",
+          "Snort"
+        ]
+      },
+      {
+        "category": "킁킁거림",
+        "accepted": [
+          "Sniff"
+        ],
+        "related": [
+          "Breathing",
+          "Snort"
+        ]
+      },
+      {
+        "category": "귀의 뽁 소리",
+        "accepted": [
+          "Burst, pop",
+          "Plop"
+        ],
+        "related": [
+          "Crack",
+          "Thump, thud"
+        ]
+      },
+      {
+        "category": "하품",
+        "accepted": [],
+        "related": [
+          "Groan",
+          "Grunt",
+          "Breathing"
+        ],
+        "unsupported": true
+      },
+      {
+        "category": "목의 뚝 소리",
+        "accepted": [
+          "Crack"
+        ],
+        "related": [
+          "Clicking",
+          "Burst, pop",
+          "Finger snapping"
+        ]
+      },
+      {
+        "category": "킁킁거림",
+        "accepted": [
+          "Sniff"
+        ],
+        "related": [
+          "Breathing",
+          "Snort"
+        ]
+      },
+      {
+        "category": "킁킁거림",
+        "accepted": [
+          "Sniff"
+        ],
+        "related": [
+          "Breathing",
+          "Snort"
+        ]
+      },
+      {
+        "category": "한숨",
+        "accepted": [
+          "Sigh"
+        ],
+        "related": [
+          "Breathing",
+          "Groan"
+        ]
+      },
+      {
+        "category": "사과의 툭 소리",
+        "accepted": [
+          "Thump, thud"
+        ],
+        "related": [
+          "Knock",
+          "Bang",
+          "Plop"
+        ]
+      }
+    ]
+  },
+  "comparison": [
+    {
+      "reference_id": 1,
+      "source_start": 29.416,
+      "source_end": 30.708,
+      "start": 0,
+      "end": 0.708,
+      "text": "코 고는 소리",
+      "category": "코 고는 소리",
+      "status": "missing",
+      "status_ko": "해당 효과음 후보 없음",
+      "overlapping_ai": [
+        {
+          "event_id": 1,
+          "label": "Music",
+          "text_ko": "음악 (Music)",
+          "start": 0.0,
+          "end": 12.15,
+          "score": 0.63196
+        }
+      ],
+      "matched_event_ids": []
+    },
+    {
+      "reference_id": 2,
+      "source_start": 32.749,
+      "source_end": 34.041,
+      "start": 2.749,
+      "end": 4.041,
+      "text": "토끼가 코를 곤다",
+      "category": "코 고는 소리",
+      "status": "missing",
+      "status_ko": "해당 효과음 후보 없음",
+      "overlapping_ai": [
+        {
+          "event_id": 1,
+          "label": "Music",
+          "text_ko": "음악 (Music)",
+          "start": 0.0,
+          "end": 12.15,
+          "score": 0.63196
+        }
+      ],
+      "matched_event_ids": []
+    },
+    {
+      "reference_id": 3,
+      "source_start": 35.916,
+      "source_end": 37.249,
+      "start": 5.916,
+      "end": 7.249,
+      "text": "토끼가 코를 곤다",
+      "category": "코 고는 소리",
+      "status": "missing",
+      "status_ko": "해당 효과음 후보 없음",
+      "overlapping_ai": [
+        {
+          "event_id": 1,
+          "label": "Music",
+          "text_ko": "음악 (Music)",
+          "start": 0.0,
+          "end": 12.15,
+          "score": 0.63196
+        }
+      ],
+      "matched_event_ids": []
+    },
+    {
+      "reference_id": 4,
+      "source_start": 45.333,
+      "source_end": 46.541,
+      "start": 15.333,
+      "end": 16.541,
+      "text": "토끼가 킁킁거린다",
+      "category": "킁킁거림",
+      "status": "missing",
+      "status_ko": "해당 효과음 후보 없음",
+      "overlapping_ai": [
+        {
+          "event_id": 2,
+          "label": "Music",
+          "text_ko": "음악 (Music)",
+          "start": 14.8,
+          "end": 16.85,
+          "score": 0.45731
+        }
+      ],
+      "matched_event_ids": []
+    },
+    {
+      "reference_id": 5,
+      "source_start": 46.541,
+      "source_end": 47.874,
+      "start": 16.541,
+      "end": 17.874,
+      "text": "귀가 펴지며 뽁 소리가 난다",
+      "category": "귀의 뽁 소리",
+      "status": "missing",
+      "status_ko": "해당 효과음 후보 없음",
+      "overlapping_ai": [
+        {
+          "event_id": 2,
+          "label": "Music",
+          "text_ko": "음악 (Music)",
+          "start": 14.8,
+          "end": 16.85,
+          "score": 0.45731
+        }
+      ],
+      "matched_event_ids": []
+    },
+    {
+      "reference_id": 6,
+      "source_start": 50.083,
+      "source_end": 51.958,
+      "start": 20.083,
+      "end": 21.958,
+      "text": "토끼가 하품한다",
+      "category": "하품",
+      "status": "unsupported",
+      "status_ko": "모델에 하품 분류 없음",
+      "overlapping_ai": [
+        {
+          "event_id": 4,
+          "label": "Music",
+          "text_ko": "음악 (Music)",
+          "start": 20.0,
+          "end": 22.7,
+          "score": 0.55874
+        }
+      ],
+      "matched_event_ids": []
+    },
+    {
+      "reference_id": 7,
+      "source_start": 52.499,
+      "source_end": 53.541,
+      "start": 22.499,
+      "end": 23.541,
+      "text": "목을 풀며 뚝 소리가 난다",
+      "category": "목의 뚝 소리",
+      "status": "missing",
+      "status_ko": "해당 효과음 후보 없음",
+      "overlapping_ai": [
+        {
+          "event_id": 4,
+          "label": "Music",
+          "text_ko": "음악 (Music)",
+          "start": 20.0,
+          "end": 22.7,
+          "score": 0.55874
+        }
+      ],
+      "matched_event_ids": []
+    },
+    {
+      "reference_id": 8,
+      "source_start": 68.416,
+      "source_end": 69.958,
+      "start": 38.416,
+      "end": 39.958,
+      "text": "토끼가 깊게 킁킁거린다",
+      "category": "킁킁거림",
+      "status": "missing",
+      "status_ko": "해당 효과음 후보 없음",
+      "overlapping_ai": [
+        {
+          "event_id": 5,
+          "label": "Music",
+          "text_ko": "음악 (Music)",
+          "start": 24.55,
+          "end": 54.2,
+          "score": 0.68797
+        }
+      ],
+      "matched_event_ids": []
+    },
+    {
+      "reference_id": 9,
+      "source_start": 73.499,
+      "source_end": 75.166,
+      "start": 43.499,
+      "end": 45.166,
+      "text": "토끼가 깊게 킁킁거린다",
+      "category": "킁킁거림",
+      "status": "missing",
+      "status_ko": "해당 효과음 후보 없음",
+      "overlapping_ai": [
+        {
+          "event_id": 5,
+          "label": "Music",
+          "text_ko": "음악 (Music)",
+          "start": 24.55,
+          "end": 54.2,
+          "score": 0.68797
+        }
+      ],
+      "matched_event_ids": []
+    },
+    {
+      "reference_id": 10,
+      "source_start": 75.166,
+      "source_end": 76.416,
+      "start": 45.166,
+      "end": 46.416,
+      "text": "토끼가 한숨을 쉰다",
+      "category": "한숨",
+      "status": "missing",
+      "status_ko": "해당 효과음 후보 없음",
+      "overlapping_ai": [
+        {
+          "event_id": 5,
+          "label": "Music",
+          "text_ko": "음악 (Music)",
+          "start": 24.55,
+          "end": 54.2,
+          "score": 0.68797
+        }
+      ],
+      "matched_event_ids": []
+    },
+    {
+      "reference_id": 11,
+      "source_start": 83.624,
+      "source_end": 84.999,
+      "start": 53.624,
+      "end": 54.999,
+      "text": "사과가 툭 떨어지는 소리",
+      "category": "사과의 툭 소리",
+      "status": "missing",
+      "status_ko": "해당 효과음 후보 없음",
+      "overlapping_ai": [
+        {
+          "event_id": 5,
+          "label": "Music",
+          "text_ko": "음악 (Music)",
+          "start": 24.55,
+          "end": 54.2,
+          "score": 0.68797
+        }
+      ],
+      "matched_event_ids": []
+    }
+  ],
+  "additional_candidates": [],
+  "model": "MIT/ast-finetuned-audioset-10-10-0.4593",
+  "elapsed_seconds": 115.15,
+  "input_sha256": "5082e9e26e2e86ea29628b43e1fa6a264245c6e9642bf19d8650893445495075"
+}
